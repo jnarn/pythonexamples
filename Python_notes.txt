@@ -1,7 +1,10 @@
-Python can be used to Sript/OO/Functional/Imperative
-Advantages of Python
-  1) Portable
-  2) Less coding
-    Five times less to accomplish same task as Java/C++
-  3) Interpreted language
-  4) Extensive Libraries
+> Python can be used to Sript/OO/Functional/Imperative
+> Advantages of Python
+    1) Portable
+    2) Less coding
+      Five times less to accomplish same task as Java/C++
+    3) Interpreted language
+    4) Extensive Libraries
+> Slow in compiling
+  switch to faster Python implementations, such as PyPy, which provides an average 7-fold speedup by implementing advanced compilation techniques
+  Python, such as Pandas and Numpy, achieve native speed due to the way they are implemented
