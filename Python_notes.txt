@@ -8,3 +8,42 @@
 > Slow in compiling
   switch to faster Python implementations, such as PyPy, which provides an average 7-fold speedup by implementing advanced compilation techniques
   Python, such as Pandas and Numpy, achieve native speed due to the way they are implemented
+
+
+
+String funtions
+>>> test_str.find('World',1,len(test_str))
+6
+Using str class internal method
+===============================
+>>> test_str.find('World',1,test_str.__len__())
+6
+>>>
+
+
+
+Interactive mode
+================
+
+Underscore a special variable reprints the last terminal output in interactive mode. Cannot be used in scripts
+
+>>> 'Hello World'
+'Hello World'
+>>> _
+'Hello World'
+>>> 'My First Python' + _ + '!'
+'My First PythonHello World!'
+>>>
+
+How to get help from interactive python terminal
+>>> help(str)
+
+
+Modules
+=======
+Random module
+#Example of using modules. https://docs.python.org/2/library/random.html
+#Import statement to call a module. It should available in the path or working directory.
+import random
+print(random.__file__) #checking the referred module file here
+print('Random result: ' + str(random.randint(1,6))) #printing a random number between 1 to 6
